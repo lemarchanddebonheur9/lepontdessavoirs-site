@@ -1,1 +1,43 @@
+cat > config.toml << 'EOF'
 baseURL = "https://lemarchanddebonheur9.github.io/lepontdessavoirs-site/"
+languageCode = "fr-fr"
+title = "Le Pont des Savoirs - L'Essence Créative"
+theme = "ananke"
+themesDir = "themes"
+
+[params]
+  description = "Association loi 1901 dédiée à l'art numérique, à la transmission du savoir et aux égrégores d'amour et de paix."
+  favicon = "/photos/logo.png"
+  logo = "/photos/logo.png"
+  primary_color = "#C9A84C"
+  secondary_color = "#0A0A0A"
+  text_color = "#F5F0E8"
+  github = "https://github.com/lemarchanddebonheur9"
+  tiktok = "https://www.tiktok.com/@lepontdessavoirs"
+  instagram = "https://www.instagram.com/lepontdessavoirs/"
+
+[[menu.main]]
+  name = "Accueil"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Projets"
+  url = "/projets/"
+  weight = 2
+
+[[menu.main]]
+  name = "À Propos"
+  url = "/a-propos/"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+EOF
