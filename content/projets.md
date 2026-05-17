@@ -6,7 +6,7 @@ menu: "main"
 
 ## 🌌 **Éveil Céleste**
 Une œuvre cosmique explorant les liens entre l’humain et l’univers.
-{{</* figure src="/photos/eveil-celestre.png" alt="Éveil Céleste" */>}}
+{{</* figure src="/energy-alternatives-group/lepontdessavoirs/photos/eveil-celestre.png" alt="Éveil Céleste" */>}}
 
 ---
 ## 🌿 **La VERDURE (Version Futuriste)**
